@@ -1,0 +1,64 @@
+# ============================================================
+# Python Output / print()
+# ============================================================
+
+# print() is a built-in Python function used to display
+# information in the console.
+
+print("Hello Dunia")
+
+
+# ============================================================
+# Printing Multiple Lines
+# ============================================================
+
+# The print() function can be called multiple times.
+# Each call starts on a new line by default.
+
+print("Hello World!")
+print("I am learning Python.")
+print("My name is Aayushman Baruah.")
+print("My call name is YOUR-YOUNGLORD.")
+
+
+# ============================================================
+# The 'end' Parameter
+# ============================================================
+
+# By default:
+#
+# print("Hello")
+#
+# behaves approximately like:
+#
+# print("Hello", end="\n")
+#
+# '\n' represents a newline.
+
+
+# We can change the default behavior using the 'end' parameter.
+
+print("Hello Learner!", end=" ")
+print("I will print on the same line.")
+
+
+# Output:
+# Hello World! I will print on the same line.
+
+
+# ============================================================
+# Key Takeaways
+# ============================================================
+
+# 1. print() displays output.
+# 2. Multiple print() calls normally appear on separate lines.
+# 3. The 'end' parameter controls what is printed after the output.
+# 4. end=" " keeps the next output on the same line.
+# 5. end="\n" is the default behavior.
+"""Print Numbers
+You can also use the print() function to display numbers:
+
+However, unlike text, we don't put numbers inside quotes:"""
+print(3)
+print(358)
+print(50000)
